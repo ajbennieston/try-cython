@@ -1,5 +1,3 @@
-cimport cpython.ref
-
 cdef extern from "foo.h":
     int foo_square(int x)
     int foo_cube(int x)
